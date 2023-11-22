@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const exerciseSchema = new Schema({
-    name: String,
+    username: String,
     description: String,
     duration: Number,
     date: Date
